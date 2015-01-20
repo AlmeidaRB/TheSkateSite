@@ -1,0 +1,87 @@
+$background: url("images/bg.jpg");
+$mainfont: 'Maven Pro', sans-serif;
+$border: 5px solid rgba(gray,0.7);
+
+//MAIN//
+body {
+  background: $background;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  position: center;
+  font-family: $mainfont;
+}
+//END MAIN//
+
+//TOP NAV//
+ul {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+li {
+  background-color: #BB0000;
+  color: white;
+  display: inline;
+  margin: 2px;
+  padding: 5px 40px 5px 40px;
+  border-bottom: $border;
+}
+//END TOP NAV//
+
+//HEADER IMG//
+.topimage {
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.topimage img {
+  border: 5px solid white;
+  width: 100%;
+
+}
+//END HEADER IMG//
+
+//TEXT ARTICLES//
+.textbox {
+  text-align: center;
+}
+.textbox ul {
+  width: 95%;
+}
+.textbox li {
+  display: inline-flex;
+  background-color: white;
+  color: black;
+  border-bottom: $border;
+  width: 275px;
+  height: 350px;
+  margin: 5px;
+  padding-top: 15px;
+  text-align: left;
+  background: url("images/textbg.jpg")
+}
+.textbox li article h1 {
+  margin: 0px;
+  padding: 0px;
+}
+.date {
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: gray;
+  text-align: left;
+}
+.textbox a {
+  display: block;
+  color: #BB0000;
+  padding-top: 10px;
+  text-align: center;
+}
+
+//END TEXT ARTICLES//
+
+//SECTION SKATEBOARDERS//
+
+//SKATEBOARDERS//
